@@ -11,3 +11,4 @@ function count(sentence, countInput) {
 
 let a = count("my name is subham my surname is subham the", "the");
 document.querySelector("#header").innerHTML = "headasdas";
+//commeting new things
