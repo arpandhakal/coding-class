@@ -1,13 +1,7 @@
-function count(sentence, countInput) {
-  let sentenceArray = sentence.split(" ");
-  let count = 0;
-  for (i = 0; i < sentence.length; i++) {
-    if (sentenceArray[i] == countInput) {
-      count = count + 1;
-    }
-  }
-  return count;
+const a = prompt("Enter a string");
+let arraychar = []
+for(i=0;i<a.length;i++){
+    arraychar.push(String.fromCharCode(a.charCodeAt(i)+1));
+    
+    console.log(arraychar.join(""))
 }
-
-let a = count("my name is subham my surname is subham the", "the");
-document.querySelector("#header").innerHTML = "headasdas";
