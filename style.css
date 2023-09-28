@@ -7,7 +7,7 @@ h1 {
   font-weight: 700;
 }
 
-#cardId {
+.card {
   border-radius: 50px;
   background-color: blanchedalmond;
   min-height: 200px;
